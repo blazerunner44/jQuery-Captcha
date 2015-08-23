@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>CSS Slider</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- jQuery (required) -->
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<!-- captcha plugin -->
+		<script type="text/javascript" src="captcha.jquery.js"></script>
+		<!-- Initialize plugin -->
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('.form1').captcha();
+		});
+		</script>
+	</head>
+
+	<body>
+		<h1>jQuery CAPTCHA example</h1>
+		<p>Please view the README file for instructions on installing the plugin.</p>
+		<form class="form1" method="get">
+			<input type="text" placeholder="Form Field">
+
+			<div class="captcha"></div>
+			<button type="submit">Submit</button>
+		</form>
+	</body>
+</html>
