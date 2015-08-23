@@ -17,17 +17,17 @@ To initialize the plugin, simply call the function on the form that you want the
 
 ```
  <form class="form1" method="get">
-			<input type="text" placeholder="Form Field">
+		<input type="text" placeholder="Form Field">
 
-			<div class="captcha"></div>
-			<button type="submit">Submit</button>
-		</form>
+		<div class="captcha"></div>
+		<button type="submit">Submit</button>
+	</form>
 ```
 		
 `$('.form1').captcha();`
 
 #Use
-If your form uses HTML to submit (ex. <form action="action.php">) then this plugin will automatically prevent the form from being submitted if the user hasen't done the CAPTCHA.
+If your form uses HTML to submit (ex. `<form action="action.php">`) then this plugin will automatically prevent the form from being submitted if the user hasen't done the CAPTCHA.
 
 If your form uses AJAX to submit, you can use the function verifyCaptcha() to verify if the CAPTCHA has been clicked or not. Pass a jQuery identifier to the function, so for our example code above, `verifyCaptcha('.form1');` The function will return true if the CAPTCHA has been completed or false if it has not. 
 
