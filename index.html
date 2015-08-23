@@ -10,6 +10,11 @@
 		<script type="text/javascript">
 		$(document).ready(function(){
 			$('.form1').captcha();
+			$('button').click(function(){
+				if(!verifyCaptcha('.form1')){
+					alert('Please click the captcha!');
+				}
+			});
 		});
 		</script>
 	</head>

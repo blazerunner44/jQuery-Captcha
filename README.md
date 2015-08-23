@@ -31,3 +31,5 @@ If your form uses HTML to submit (ex. `<form action="action.php">`) then this pl
 
 If your form uses AJAX to submit, you can use the function verifyCaptcha() to verify if the CAPTCHA has been clicked or not. Pass a jQuery identifier to the function, so for our example code above, `verifyCaptcha('.form1');` The function will return true if the CAPTCHA has been completed or false if it has not. 
 
+#Demo
+You can see the contents of the example folder live at http://blazerunner44.me/github/jQuery-Captcha

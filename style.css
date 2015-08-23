@@ -16,6 +16,7 @@
 	border: 2px solid green;
 	display:inline;
 	position: absolute;
+  cursor: pointer;
 }
 
 /*Styles for check animation*/
